@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-sudo mkdir /var/lib/apt/lists/partial
-sudo apt-get update 
+mkdir /var/lib/apt/lists/partial
+apt-get update 
 apt-get install uuid-dev
