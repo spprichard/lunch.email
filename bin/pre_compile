@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 
-mkdir /var/lib/apt/lists/partial
-apt-get update 
+apt-get update -y 
 apt-get install uuid-dev
