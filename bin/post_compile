@@ -1,4 +1,7 @@
 #!/bin/sh
 
+#Shouldn't this have already happened? 
 swift build
+
+echo "-----> Running post-compile hook"
 ./.build/debug/lunch.email
