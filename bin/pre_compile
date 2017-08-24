@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+./bin/pre_compile --sure
 WEBLOC=https://swift.org/builds/swift-3.1.1-release/ubuntu1604/swift-3.1.1-RELEASE/swift-3.1.1-RELEASE-ubuntu16.04.tar.gz
 SWIFTNAME=$(basename $WEBLOC)
 MYDIR=$(dirname $0)
