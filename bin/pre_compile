@@ -2,9 +2,3 @@
 
 apt-get -y update
 
-apt-get install -y clang pkg-config libicu-dev libpython2.7 libxml2-dev wget git libssl-dev uuid-dev libsqlite3-dev libpq-dev libmysqlclient-dev libbson-dev libmongoc-dev libcurl4-openssl-dev
-
-git clone https://github.com/PerfectlySoft/Perfect-Ubuntu.git
-cd Perfect-Ubuntu/
-chmod +x ./install.sh
-./install.sh --sure
