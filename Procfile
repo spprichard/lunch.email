@@ -1,1 +1,1 @@
-web: --workers 1 --port=$PORT --bind 0.0.0.0
+web: .build/release/lunch.email --port $PORT
