@@ -1,1 +1,1 @@
-web: ./.build/debug/lunch.email --workers 1 --port=8181 --bind 0.0.0.0
+web: --workers 1 --port=$PORT --bind 0.0.0.0
